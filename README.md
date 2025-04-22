@@ -63,7 +63,7 @@ Archive:  ../kos/Загрузки/terraform_1.11.4_linux_amd64.zip
 ### РЕШЕНИЕ
 
 1. Скачал все зависимости согласно задания
-[3](https://github.com/KargapoltcevKS/Terraform_01/blob/main/img/3.png)
+![3](https://github.com/KargapoltcevKS/Terraform_01/blob/main/img/3.png)
 
 2. Хранить секретную информацию можно в файле 
 personal.auto.tfvars
@@ -133,7 +133,7 @@ personal.auto.tfvars
 - Поправил строчку с неверными ссылками 
 name  = "example_${random_password.random_string.result}"
 
-[4](https://github.com/KargapoltcevKS/Terraform_01/blob/main/img/4.png)
+![4](https://github.com/KargapoltcevKS/Terraform_01/blob/main/img/4.png)
 
 Исправил ошибки
 
@@ -182,15 +182,15 @@ kos@kos-VirtualBox:~/Terraform_01$ sudo terraform apply
 ```
 Вывод команды sudo docker ps
 
-[5](https://github.com/KargapoltcevKS/Terraform_01/blob/main/img/5.png)
+![5](https://github.com/KargapoltcevKS/Terraform_01/blob/main/img/5.png)
 
 6. Ключ -auto-approve пропускает подтверждение выполнения команды на выполнения (YES)
 Вывод команды sudo docker ps
-[6](https://github.com/KargapoltcevKS/Terraform_01/blob/main/img/6.png)
+![6](https://github.com/KargapoltcevKS/Terraform_01/blob/main/img/6.png)
 
 8. Уничтожил все созданные ресурсы 
 Команда terraform destroy
-[7](https://github.com/KargapoltcevKS/Terraform_01/blob/main/img/7.png)
+![7](https://github.com/KargapoltcevKS/Terraform_01/blob/main/img/7.png)
 
 Содержимое файла terraform.tfstate
 
